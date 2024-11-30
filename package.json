@@ -1,0 +1,30 @@
+{
+  "name": "drag-drop-editor",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "grapesjs": "^0.22.3",
+    "grapesjs-blocks-basic": "^1.0.2",
+    "grapesjs-blocks-flexbox": "^1.0.1",
+    "grapesjs-plugin-forms": "^2.0.6",
+    "grapesjs-preset-webpage": "^1.0.3",
+    "grapesjs-rulers": "^1.0.8",
+    "grapesjs-tabs": "^1.0.6",
+    "vue": "^3.5.12",
+    "vue-draggable-next": "^2.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "vite": "^5.4.10",
+    "vite-plugin-vue-devtools": "^7.5.4"
+  }
+}
